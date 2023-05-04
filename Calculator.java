@@ -45,9 +45,9 @@ public class Calculator extends JFrame {
         add.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int no1 = Integer.parseInt(textField1.getText());
-                int no2 = Integer.parseInt(textField2.getText());
-                l2.setText("Sum of two numbers is : " + (no1 + no2));
+                int number1 = Integer.parseInt(textField1.getText());
+                int number2 = Integer.parseInt(textField2.getText());
+                l2.setText("Sum of two numbers is : " + (number1 + number2));
             }
         });
 
